@@ -1,0 +1,38 @@
+Heart Disease Prediction Model Results
+=====================================
+
+Timestamp: 2025-05-01 20:44:24
+
+Model: Logistic Regression
+Accuracy: 0.8525
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.86      0.85        29
+           1       0.87      0.84      0.86        32
+
+    accuracy                           0.85        61
+   macro avg       0.85      0.85      0.85        61
+weighted avg       0.85      0.85      0.85        61
+
+
+Confusion Matrix:
+[[25  4]
+ [ 5 27]]
+
+Feature Importance:
+     Feature  Importance
+2         cp    0.824407
+11        ca    0.813470
+1        sex    0.768878
+9    oldpeak    0.712311
+12      thal    0.581088
+8      exang    0.523150
+10     slope    0.442825
+7    thalach    0.403597
+3   trestbps    0.284040
+6    restecg    0.280884
+4       chol    0.172382
+5        fbs    0.096328
+0        age    0.085783
